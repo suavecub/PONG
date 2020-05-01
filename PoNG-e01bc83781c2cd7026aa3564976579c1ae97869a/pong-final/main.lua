@@ -238,9 +238,9 @@ function love.update(dt)
     end
 
     -- player 2
-    if ball.y >= player2.dy then
+    if ball > player2 then
         player2.dy = PADDLE_SPEED
-    elseif ball.dy <= player2.dy then
+    elseif ball < player2 then
         player2.dy = -PADDLE_SPEED
     else
         player2.dy = 0
