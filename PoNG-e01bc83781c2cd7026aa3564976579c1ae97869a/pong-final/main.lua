@@ -49,7 +49,7 @@ VIRTUAL_HEIGHT = 243
 
 -- paddle movement speed
 PADDLE_SPEED = 200
-PADDLE_SPEED2= 150
+PADDLE_SPEED2= 100
 --[[
     Called just once at the beginning of the game; used to set up
     game objects, variables, etc. and prepare the game world.
